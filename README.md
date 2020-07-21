@@ -6,6 +6,12 @@
 <br/>
 <br/>
 
+<p align="center">
+<img src="https://img.shields.io/github/languages/top/ViniciusDelmondes/Geek-Store">  <img src="https://img.shields.io/github/languages/count/ViniciusDelmondes/Geek-Store"> <img src="https://img.shields.io/github/last-commit/ViniciusDelmondes/Geek-Store"> <img src="https://img.shields.io/github/repo-size/ViniciusDelmondes/Geek-Store">
+</p>
+
+
+
 
 <h2>
 O Projeto:
