@@ -1,0 +1,402 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+
+
+.Comprar{
+    margin-left: 106px;
+    background-color: #32CD32;
+    color: white;
+    font-weight: 700;
+    border-color: #32CD32;
+    width: 80px;
+    height: 30px;
+    visibility: hidden;
+    margin-top: 20px;
+    padding-top: -30px;
+}
+
+.Cart{
+    margin-left: 15px;
+    visibility: hidden;
+    background-color: white;
+    border-color: white;
+}
+
+.preco {
+    font-size: 26px;
+    margin-left: 96px;
+    padding-top: 10px;
+    color: #DC143C;
+}
+
+.precoantigo{
+    margin-top: -15px;
+}
+
+.conteudo:hover button {
+    visibility: visible;
+    transition: all;
+}
+
+a { color: inherit; } 
+
+.conteudo {
+    margin-top: 36px;
+    margin-left: 60px;;
+    width: 350px;
+    height: 500px; 
+    border-radius: 16px;
+    background: transparent;
+    border-style: solid;
+    border-color: white;
+    z-index: 1;
+    position: relative;
+}
+
+.conteudo:hover{
+   border-style: solid;
+   border-color: white;
+}
+
+.conteudo h1{
+    margin: 30px;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: #363636;
+}
+
+.conteudo p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.conteudo h3{
+    font-family: 'Quicksand', sans-serif;
+    color: #363636;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.destaques {
+    width: 230px;
+    margin-top: 40px;
+    margin-left: 56px;
+    z-index: 1;
+}
+
+a {
+   text-decoration: none;
+}
+
+/* ____________________________ */
+
+.conteudo2 {
+    margin-top: -505px;
+    margin-left: 460px;;
+    width: 350px;
+    height: 500px; 
+    border-radius: 16px;
+    background: transparent;
+    border-style: solid;
+    border-color: white;
+    z-index: 0;
+    position: relative;
+}
+
+.conteudo2:hover{
+   border-style: solid;
+   border-color: white;
+}
+
+.conteudo2 h1{
+    padding-top: 14px;
+    text-align: center;
+    margin: 30px;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: #363636;
+}
+
+.conteudo2 p{
+    text-align: center;
+    padding-top: 11px;
+}
+
+.conteudo2 h3{
+    font-family: 'Quicksand', sans-serif;
+    color: #363636;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.destaques2 {
+    width: 160px;
+    margin-top: 40px;
+    margin-left: 96px;
+    z-index: 1;
+}
+
+.conteudo2:hover button {
+    visibility: visible;
+    transition: all;
+}
+
+/* ____________________________ */
+
+.conteudo3 {
+    margin-top: -505px;
+    margin-left: 860px;;
+    width: 350px;
+    height: 500px; 
+    border-radius: 16px;
+    background: transparent;
+    border-style: solid;
+    border-color: white;
+    z-index: 1;
+    position: relative;
+}
+
+.conteudo3:hover{
+   border-style: solid;
+   border-color: white;
+}
+
+.conteudo3 h1{
+    margin: 30px;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 6px;
+    color: #363636;
+}
+
+.conteudo3 p{
+    text-align: center;
+    padding-top: 11px;
+}
+
+.conteudo3 h3{
+    font-family: 'Quicksand', sans-serif;
+    color: #363636;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.destaques3 {
+    width: 220px;
+    margin-top: 40px;
+    margin-left: 55px;
+    z-index: 1;
+}
+
+.conteudo3:hover button {
+    visibility: visible;
+    transition: all;
+}
+
+
+/* ____________________________ */
+
+.conteudo4 {
+    margin-top: 10px;
+    margin-left: 60px;;
+    width: 350px;
+    height: 500px; 
+    border-radius: 16px;
+    background: transparent;
+    border-style: solid;
+    border-color: white;
+    z-index: 1;
+    position: relative;
+}
+
+.conteudo4:hover{
+   border-style: solid;
+   border-color: white;
+}
+
+.conteudo4 h1{
+    margin: 30px;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: #363636;
+}
+
+.conteudo4 p{
+    text-align: center;
+    padding-top: -10px;
+}
+
+.conteudo4 h3{
+    font-family: 'Quicksand', sans-serif;
+    color: #363636;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.destaques4 {
+    width: 180px;
+    margin-top: 40px;
+    margin-left: 55px;
+    z-index: 1;
+}
+
+.conteudo4:hover button {
+    visibility: visible;
+    transition: all;
+}
+
+/* ____________________________ */
+
+.conteudo5 {
+    margin-top: -505px;
+    margin-left: 460px;
+    width: 350px;
+    height: 500px; 
+    border-radius: 16px;
+    background: transparent;
+    border-style: solid;
+    border-color: white;
+    z-index: 1;
+    position: relative;
+}
+
+.conteudo5:hover{
+   border-style: solid;
+   border-color: white;
+}
+
+.conteudo5 h1{
+    margin: 30px;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: #363636;
+}
+
+.conteudo5 p{
+    text-align: center;
+    padding-top: -10px;
+}
+
+.conteudo5 h3{
+    font-family: 'Quicksand', sans-serif;
+    color: #363636;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.destaques5 {
+    width: 220px;
+    margin-top: 40px;
+    margin-left: 55px;
+    z-index: 1;
+}
+
+.conteudo5:hover button {
+    visibility: visible;
+    transition: all;
+}
+
+/* ____________________________ */
+
+.conteudo6 {
+    margin-top: -505px;
+    margin-left: 860px;;
+    width: 350px;
+    height: 500px; 
+    border-radius: 16px;
+    background: transparent;
+    border-style: solid;
+    border-color: white;
+    z-index: 1;
+    position: relative;
+}
+
+.conteudo6:hover{
+   border-style: solid;
+   border-color: white;
+}
+
+.conteudo6 h1{
+    margin: 30px;
+    position: relative;
+    font-size: 20px;
+    padding-top: 12px;
+    font-family: 'Quicksand', sans-serif;
+    color: #363636;
+}
+
+.conteudo6 p{
+    text-align: center;
+    padding-top: -10px;
+}
+
+.conteudo6 h3{
+    font-family: 'Quicksand', sans-serif;
+    color: #363636;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.destaques6 {
+    width: 180px;
+    margin-top: 60px;
+    margin-left: 55px;
+    z-index: 1;
+}
+
+.conteudo6:hover button {
+    visibility: visible;
+    transition: all;
+}
+
+#alertcarrinho {
+    margin-top: 15px;
+    display: none;
+
+}
+
+
+#alertcarrinho2 {
+    margin-top: 15px;
+    display: none;
+
+}
+
+#alertcarrinho3 {
+    margin-top: 15px;
+    display: none;
+
+}
+
+#alertcarrinho4 {
+    margin-top: 15px;
+    display: none;
+
+}
+
+#alertcarrinho5 {
+    margin-top: 15px;
+    display: none;
+
+}
+
+#alertcarrinho6 {
+    margin-top: 15px;
+    display: none;
+
+}

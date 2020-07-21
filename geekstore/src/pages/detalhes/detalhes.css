@@ -1,0 +1,675 @@
+* {
+    margin: 0px;
+}
+
+.entrega {
+    background-color:#2E8B57;
+    height: 52px;
+
+}
+
+.fretenormal {
+    width: 300px;
+    margin-left: 40px;
+    height: 80px;
+}
+
+.fretenormal h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-left: 100px;
+    padding-top: 16px;
+    position: absolute;
+}
+
+.fretenormal {
+    background-color: green;
+}
+
+.frete {
+    width: 60px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.entrega h1{
+    color: white;
+    position: absolute;
+    font-size: 14px;
+    margin-top: -60px;
+    margin-left: 400px;
+}
+
+header {
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu {
+    width: 100%;
+    background-color: black;
+    height: 150px;
+}
+
+.small {
+    width: 100%;
+    background-color: black;
+    height: 80px;
+}
+
+
+.menu ul {
+    list-style: none;
+    position: relative;
+}
+
+.menu ul li {
+    width: 130px;
+    float: left;
+    margin-top: 40px;
+}
+
+.menu ul li ul {
+    margin-left: -39px;
+    z-index: 1;
+}
+
+.menu a {
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color:black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 4px;
+}
+
+.menu ul ul {
+    position: absolute;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul {
+    visibility: visible;
+    transition: all;
+}
+
+.menu ul ul li {
+    float: none;
+    border-bottom: solid 1px #ccc;
+    
+}
+
+.menu ul ul li a {
+    background-color: #1C1C1C;
+    margin-top: -40px;
+    border-color: black;
+}
+
+.menu a:hover {
+    background-color:black;
+    
+}
+
+.Logo {
+    position: static;
+    margin-top: 40px;
+    margin-left: 80px ;
+}
+
+.menu input{
+    width: 200px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 58px;
+    background: transparent;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+ }
+  
+ :-moz-placeholder { /* Firefox 18- */
+    color: white;  
+ }
+  
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: white;  
+ }
+  
+ :-ms-input-placeholder {  
+    color: white;  
+ }
+
+
+.Destaque{
+    background-color: white;
+    margin-top: 40px;
+    height: 80px;
+}
+ 
+ .Destaque h1 {
+     text-align: center;
+     padding-top: 20px;
+     color: black;
+     font-style: oblique;
+     text-decoration: underline;
+     
+ }
+
+ .pac {
+     width: 1260px;
+     height: 700px;
+     margin-top: 40px;
+     position: static;
+     z-index: 0;
+     
+ }
+
+ .fundo{
+    height: 80px;
+    background-color: white;
+    margin-top: 120px;
+    
+ }
+
+ .fundo h1{
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+    font-style: oblique;
+    text-decoration: underline;
+ }
+
+.redes{
+    background-color: #C0C0C0;
+    height: 450px;
+}
+
+.redes h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.titulo_insta{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 60px;
+    font-size: 20px;
+    position: relative;
+    margin-left: 140px;
+    margin-top: -100px;
+}
+
+.titulo_youtube{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 60px;
+    font-size: 20px;
+    position: relative;
+    margin-left: 530px;
+    margin-top: -108px;
+}
+
+.titulo_facebook{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 60px;
+    font-size: 20px;
+    position: relative;
+    margin-left: 950px;
+    margin-top: -108px;
+}
+
+.footer {
+    background-color: black;
+    height: 300px;
+}
+
+.logo2 {
+    margin-top: 115px;
+    margin-left: 40px;
+}
+
+.footer h2 {
+    color: white;
+    margin-left: 400px;
+    margin-top: -120px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer h1 {
+    color: white;
+    margin-left: 1060px;
+    margin-top: -66px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: 400px;
+    margin-top: 20px;
+    font-size: 12px;
+    padding-top: -30px;
+}
+
+.footer h3 {
+    color: white;
+    margin-left: 800px;
+    margin-top: -120px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.insta {
+    width: 30px;
+    margin-left: 800px;
+    margin-top: 15px;
+}
+
+.youtube {
+    width: 36px;
+    margin-left: 15px;
+    padding-top: 12px;
+    position: absolute;
+}
+
+.facebook {
+    width: 40px;
+    margin-left: 64px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.cartoes {
+    width: 250px;
+    margin-left: 970px;
+    margin-top: 15px;
+}
+
+
+.mascaras {
+    margin-top: 115px;
+    width: 1263px;
+    position: static;
+}
+
+.btncompra{
+    width: 600px;
+    position: absolute;
+    margin-left: 369px;
+    margin-top: -45px;
+}
+
+.btnuser{
+    width: 600px;
+    position: absolute;
+    margin-left: 390px;
+    margin-top: -45px;
+}
+
+.campoheader{
+    width: 400px;
+}
+
+.menu input {
+    position: absolute;
+}
+
+.bottom1{
+    margin-left: 64px;
+    position: absolute;
+    
+}
+
+.bottom2{
+    margin-left: 64px;
+    margin-top: 180px;
+    position: absolute;
+}
+
+.bottom3{
+    margin-left: 69px;
+    margin-top: 370px;
+}
+
+.slides img:hover {
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+.indice {
+    font-family: 'Roboto', sans-serif;
+    color: #C0C0C0;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.galeria_produto{
+    border-style: solid;
+    border-color: #C0C0C0;
+    width: 800px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-width: 1px;
+    height: 550px;
+}
+
+.prod1 {
+    width: 250px;
+    
+    margin-left: 250px;
+    margin-top: 120px;
+}
+
+.detalhes_prod{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #C0C0C0;
+    width: 300px;
+    height: 460px;
+    position: static;
+    margin-left: 910px;
+    margin-top: -552px;
+    height: 450px;
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+    color: #363636;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.precodetail {
+    font-size: 26px;
+    margin-left: 10px;
+    padding-top: 15px;
+    color: #DC143C;
+}
+
+.detalhes_prod p {
+    font-family: 'Quicksand', sans-serif;
+    color: #363636;
+    font-size: 12px;
+    margin-left: 15px;
+    padding-top: 30px;
+}
+
+.precoantigo {
+    font-family: 'Quicksand', sans-serif;
+    color: #363636;
+    padding-top: 40px;
+    font-size: 13px;
+    margin-left: 15px;
+}
+
+.detalhes_prod h3 {
+    font-family: 'Quicksand', sans-serif;
+    color: #363636;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.soma {
+    position: absolute;
+    margin-left: 220px;
+}
+
+.subtracao {
+    position: absolute;
+    margin-left: 220px;
+}
+
+.quantidade {
+    border-style: solid;
+    border-color: #363636;
+    border-left: hidden;
+    border-right: hidden;
+    border-width: 2px;
+    height: 50px;
+    width: 266px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.quantidade p {
+    font-size: 14px;
+    margin-top: -40px;
+}
+
+.tamanho {
+    background-color: black;
+}
+
+.tamanho h1 {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+ .tamanho-p, 
+ .tamanho-m, 
+ .tamanho-g, 
+ .tamanho-gg {
+    background-color: white;
+    border-style: solid;
+    border-color: #363636;
+    border-width: 1px;
+    width: 50px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+ }
+ .test-btn {
+  
+    border: solid red 5px;
+    background: white;
+ }
+
+.calcfrete{
+    background-color: white;
+    border-style: solid;
+    border-color: 	#B22222;
+    border-width: 2px;
+    width: 300px;
+    margin-left: 910px;
+    margin-top: 20px;
+    height: 110px;
+    position: absolute;
+}
+
+.calcfrete h1{
+    margin-top: 10px;
+    color: black;
+    font-weight: 800;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    margin-left: 82px;
+}
+
+.inputCEP {
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.calcCEP {
+    width: 176px;
+    background-color: black;
+    margin-left: 60px;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.btnComprar {
+    margin-top: 30px;
+    margin-left: 32px;
+    width: 230px;
+    height: 50px;
+    background-color: #32CD32;
+    border-style: solid;
+    border-color: #32CD32;
+    border-width: 2px;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.informacoes h1 {
+    font-family: 'Quicksand', sans-serif;
+    color: #363636;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 180px;
+}
+
+.itemtable {
+    border: hidden;
+    
+}
+
+.descricao {
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 800px;
+    height: 60px;
+    position: static;
+}
+
+.celula {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.interesse h1{
+        position: static;
+        text-align: center;
+        padding-top: 100px;
+        color: black;
+        font-style: oblique;
+        text-decoration: underline;
+        font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    background-color: black;
+    height: 300px;
+    margin-top: 160px;
+}
+
+.logo2 {
+    margin-top: 115px;
+    margin-left: 40px;
+}
+
+.footer h2 {
+    color: white;
+    margin-left: 400px;
+    margin-top: -120px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer h1 {
+    color: white;
+    margin-left: 1060px;
+    margin-top: -66px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: 400px;
+    margin-top: 20px;
+    font-size: 12px;
+    padding-top: -30px;
+}
+
+.footer h3 {
+    color: white;
+    margin-left: 800px;
+    margin-top: -120px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.insta {
+    width: 30px;
+    margin-left: 800px;
+    margin-top: 15px;
+}
+
+.youtube {
+    width: 36px;
+    margin-left: 15px;
+    padding-top: 12px;
+    position: absolute;
+}
+
+.facebook {
+    width: 40px;
+    margin-left: 64px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.cartoes {
+    width: 250px;
+    margin-left: 970px;
+    margin-top: 15px;
+}
+
+.calcfretedetails {
+    margin-top: 40px;
+    border: solid crimson 1px;
+    height: 280px;
+   
+}
+
+.calcfretedetails{
+    display: none;
+
+}
+
+.calcfretedetails h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    margin-left: 5px;
+
+}
+
+.calcfretedetails p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#loadinginformation{
+        display: none;
+        margin-left: 100px;
+}
+
+.loadinggif {
+    width: 100px;
+    margin-top: 90px;
+    
+}

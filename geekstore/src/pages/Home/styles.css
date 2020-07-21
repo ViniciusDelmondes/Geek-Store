@@ -1,0 +1,387 @@
+* {
+    margin: 0px;
+}
+
+.entrega {
+    background-color:#2E8B57;
+    height: 52px;
+
+}
+
+.fretenormal {
+    width: 300px;
+    margin-left: 40px;
+    height: 80px;
+}
+
+.fretenormal h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-left: 100px;
+    padding-top: 16px;
+    position: absolute;
+}
+
+.fretenormal {
+    background-color: green;
+}
+
+.frete {
+    width: 60px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.entrega h1{
+    color: white;
+    position: absolute;
+    font-size: 14px;
+    margin-top: -60px;
+    margin-left: 400px;
+}
+
+header {
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu {
+    width: 100%;
+    background-color: black;
+    height: 150px;
+}
+
+.small {
+    width: 100%;
+    background-color: black;
+    height: 80px;
+}
+
+
+.menu ul {
+    list-style: none;
+    position: relative;
+}
+
+.menu ul li {
+    width: 130px;
+    float: left;
+    margin-top: 40px;
+}
+
+.menu ul li ul {
+    margin-left: -39px;
+    z-index: 1;
+}
+
+.menu a {
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color:black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 4px;
+}
+
+.menu ul ul {
+    position: absolute;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul {
+    visibility: visible;
+    transition: all;
+}
+
+.menu ul ul li {
+    float: none;
+    border-bottom: solid 1px #ccc;
+    
+}
+
+.menu ul ul li a {
+    background-color: #1C1C1C;
+    margin-top: -40px;
+    border-color: black;
+}
+
+.menu a:hover {
+    background-color:black;
+    
+}
+
+.Logo {
+    position: static;
+    margin-top: 40px;
+    margin-left: 80px ;
+}
+
+.menu input{
+    width: 200px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 58px;
+    background: transparent;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+ }
+  
+ :-moz-placeholder { /* Firefox 18- */
+    color: white;  
+ }
+  
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: white;  
+ }
+  
+ :-ms-input-placeholder {  
+    color: white;  
+ }
+
+/* Galeria */
+
+.slides {
+    background-color: #1C1C1C;
+    height: 554px;;
+}
+
+.foto:nth-child(1) {
+    animation-delay: 0s;      
+}
+.foto:nth-child(2) {
+    animation-delay: 5s;
+}
+.foto:nth-child(3) {
+    animation-delay: 10s;
+}
+.foto:nth-child(4) {
+    animation-delay: 15s;
+}
+
+.galeria {
+
+    padding-top: 24px;
+    padding-left: 318px;
+    margin: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+.foto {
+    width: 900px;
+    opacity: 0%;
+    position: absolute;
+    animation: animacao 20s infinite;
+    z-index: 0;
+    
+}
+
+@keyframes animacao{
+    25% {
+        opacity: 1;
+        transform:scale(1.1,1.1);
+    }
+
+    50% {
+        opacity: 0;
+
+    }
+}
+
+.Destaque{
+    background-color: white;
+    margin-top: 40px;
+    height: 80px;
+}
+ 
+ .Destaque h1 {
+     text-align: center;
+     padding-top: 20px;
+     color: black;
+     font-style: oblique;
+     text-decoration: underline;
+     
+ }
+
+ .pac {
+     width: 1260px;
+     height: 700px;
+     margin-top: 40px;
+     position: static;
+     z-index: 0;
+     
+ }
+
+ .fundo{
+    height: 80px;
+    background-color: white;
+    padding-top: 120px;
+    
+ }
+
+ .fundo h1{
+    position: static;
+    text-align: center;
+    padding-top: 120px;
+    color: black;
+    font-style: oblique;
+    text-decoration: underline;
+ }
+
+ .sonic {
+     width: 50px;
+     position: absolute;
+     margin-left: 720px;
+     margin-top: 10px;
+     border-radius: 10px;
+ }
+
+ .pikachu {
+    width: 60px;
+    position: absolute;
+    margin-left: 730px;
+    margin-top: 8px;
+}
+
+.redes{
+    background-color: #C0C0C0;
+    height: 450px;
+}
+
+.redes h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.footerhome {
+    background-color: black;
+    height: 300px;
+    padding-top: -300px;
+}
+
+.logo2 {
+    margin-top: 115px;
+    margin-left: 40px;
+}
+
+.footerhome h2 {
+    color: white;
+    margin-left: 400px;
+    margin-top: -120px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footerhome h1 {
+    color: white;
+    margin-left: 1060px;
+    margin-top: -66px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footerhome p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: 400px;
+    margin-top: 20px;
+    font-size: 12px;
+    padding-top: -30px;
+}
+
+.footerhome h3 {
+    color: white;
+    margin-left: 800px;
+    margin-top: -120px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.insta {
+    width: 30px;
+    margin-left: 800px;
+    margin-top: 15px;
+}
+
+.youtube {
+    width: 36px;
+    margin-left: 15px;
+    padding-top: 12px;
+    position: absolute;
+}
+
+.facebook {
+    width: 40px;
+    margin-left: 64px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.cartoes {
+    width: 250px;
+    margin-left: 970px;
+    margin-top: 15px;
+}
+
+
+.mascaras {
+    padding-top: 200px;
+    width: 1263px;
+    position: absolute;
+}
+
+.btncompra{
+    width: 600px;
+    position: absolute;
+    margin-left: 369px;
+    margin-top: -45px;
+}
+
+.btnuser{
+    width: 600px;
+    position: absolute;
+    margin-left: 390px;
+    margin-top: -45px;
+}
+
+.campoheader{
+    width: 400px;
+}
+
+.menu input {
+    position: absolute;
+}
+
+.bottom1{
+    margin-left: 64px;
+    position: absolute;
+    
+}
+
+.bottom2{
+    margin-left: 64px;
+    margin-top: 180px;
+    position: absolute;
+}
+
+.bottom3{
+    margin-left: 69px;
+    margin-top: 370px;
+}
+
+.slides img:hover {
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+
+
