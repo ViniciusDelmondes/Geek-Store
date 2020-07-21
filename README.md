@@ -17,5 +17,5 @@ A Geek|Store é um projeto de uma loja digital voltada para a comunidade geek co
 <h2>Sobre o aprendizado:</h2>
 <p>
 A finalidade deste projeto é praticar meus conhecimentos em programação front-end. Os aspectos abordados foram principalmente o uso de componentes que é um poder do React.js, estruturando o projeto e deixando-o totalmente organizado e visivilmente agradável. O uso também do
-JavaScript referente a manipulação da DOM, o HTML (JSX) e também a estilização agradável ao usuário com o CSS.
+JavaScript referente a manipulação da DOM, o consumo de uma API dos Correios e apresentar em tela para o usuário, o HTML (JSX) e também a estilização agradável ao usuário com o CSS.
 </p>
