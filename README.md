@@ -51,3 +51,40 @@ JavaScript referente a manipulação da DOM, o consumo de uma API dos Correios e
 <p align="center">
 <img src="https://user-images.githubusercontent.com/60788150/88113340-f898ac00-cb87-11ea-82e1-0d6119829ea3.gif">
 </p>
+
+</br>
+
+<h2>
+ Como usar:
+</h2>
+<p>
+Para clonar e rodar esta aplicação, é necessário ter o Git e o Node.js instalado em seu computador.
+</p>
+    # Clonar esse repositório
+    **$ git clone https://github.com/ViniciusDelmondes/Geek-Store**
+    
+    # Navegue até o diretório
+   ** $ cd geekstore**
+    
+    # Abrir no VSCode
+   ** $ code .**
+   
+   <h2>
+ Start:
+</h2>
+<p>
+    # Navegue até o diretório
+    **$ cd geekstore**
+    
+    # Instale as dependências necessarias
+   ** $ npm install**
+    
+    # Rode
+    **$ npm start**
+    
+    # running on port 3000
+</p>
+
+<h4>
+ Projeto realizado por: Vinicius Delmondes
+</h4>
