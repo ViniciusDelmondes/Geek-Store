@@ -21,6 +21,10 @@ JavaScript referente a manipulação da DOM, o consumo de uma API dos Correios e
 </p>
 
 <br/>
+
+<h2>Veja alguns detalhes:</h2>
+
+<br/>
 <br/>
 
 <p align="center">
